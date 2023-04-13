@@ -1,6 +1,6 @@
-miles_driven = float((25))
-gallons_used = float((25))
+miles_driven = float(input("Enter the miles driven: "))
+gallons_used = float(input("Enter the gallons used: "))
 
 miles_per_gallon = miles_driven / gallons_used
 
-print(miles_per_gallon)
+print("The miles per gallon is:", miles_per_gallon)
